@@ -1,0 +1,104 @@
+.container-register {
+    height: 550px;
+    width: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px black;
+}
+
+.container-logo-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-register{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.logo-register {
+    height: 160px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px aqua;
+}
+
+.container-input {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+}
+
+.tel {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+}
+
+.input-register {
+    height: 25px;
+    width: 90%;
+    border-radius: 15px;
+    padding: 4px 0px 4px 8px;
+    border: none;
+ 
+}
+
+.container-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-submit {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #B5B5B5;
+}
+
+.login-link {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: fit-content;
+    display: flex;
+    justify-content: center;   
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-style: italic;
+}

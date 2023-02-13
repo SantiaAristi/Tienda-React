@@ -1,0 +1,79 @@
+.container-footer {
+    background-color: #154170;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding: 7px 15px 7px;
+}
+
+.container-left-text {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+    user-select: none;
+    margin-right: 50px;
+}
+
+.container-right {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container-right span{
+    padding: 5px;
+    user-select: none;
+}
+
+.right-img {
+    width: 31px;
+    height: 31px;
+    padding: 1px;
+    opacity: 0.8;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.container-right a{
+    width: 31px;
+    height: 31px;
+    padding: 1px;
+    opacity: 0.8;
+    vertical-align: middle;
+}
+
+.container-right a:hover{
+    opacity: 1;
+}
+
+.btn-contactanos {
+    margin-left: 5px;
+    border: 2px solid #012133;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgba(2, 128, 194, 0.5);
+}
+
+.btn-contactanos:hover {
+    background-color: rgba(2, 128, 194, 0.8);
+}
+
+.name-shop {
+    cursor: pointer;
+}
+
+@media (max-width: 794px) {
+    .btn-contactanos {
+        display: none;
+    }
+
+    .text {
+        display: none;
+    }
+    
+}
